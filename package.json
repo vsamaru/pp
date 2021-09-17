@@ -9,9 +9,9 @@
     "swr": "latest"
   },
   "scripts": {
-        "g": "git add . && git commit -m \"first commit\" && git push -u origin main -f",
+    "g": "git add . && git commit -m \"first commit\" && git push -u origin main -f",
     "dev": "next",
-    "start": "next start",
-    "build": "next build"
+    "build": "next build && next export",
+    "bu": "next build"
   }
 }
