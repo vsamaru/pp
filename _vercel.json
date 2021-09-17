@@ -6,9 +6,4 @@
   	{ "src": "/(.*)", "methods": ["PUT"], "dest": "/api/index?o=$1" }
   ]
 
-,
-  "env": {
-    "FIREBASE_PATH": "...",
-    "FIREBASE_AUTH": "..."
-  }
 }

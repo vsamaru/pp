@@ -2,7 +2,6 @@
   "name": "prefetch-preload",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
   "dependencies": {
     "next": "11.1.0",
     "react": "17.0.2",
@@ -10,6 +9,7 @@
     "swr": "latest"
   },
   "scripts": {
+        "g": "git add . && git commit -m \"first commit\" && git push -u origin main -f",
     "dev": "next",
     "start": "next start",
     "build": "next build"
