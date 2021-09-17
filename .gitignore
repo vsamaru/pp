@@ -1,0 +1,12 @@
+
+
+
+node_modules
+
+# DS Store
+.DS_store
+
+# Eleventy cached API results
+.cache
+# Local Netlify folder
+.next

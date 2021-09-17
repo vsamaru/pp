@@ -1,0 +1,14 @@
+{
+  "routes": [	
+  	{ "src": "/", "methods": ["GET"], "dest": "/api/put" },
+  	{ "src": "/", "methods": ["POST"], "dest": "/api/index" },
+  	{ "src": "/", "methods": ["PUT"], "dest": "/api/put" },
+  	{ "src": "/(.*)", "methods": ["PUT"], "dest": "/api/index?o=$1" }
+  ]
+
+,
+  "env": {
+    "FIREBASE_PATH": "...",
+    "FIREBASE_AUTH": "..."
+  }
+}
